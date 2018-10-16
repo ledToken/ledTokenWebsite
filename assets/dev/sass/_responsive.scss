@@ -15,7 +15,7 @@ responsive style
 }
 
 @media (max-width: 1024px) {
-  .app-header{
+  .app-header {
     padding-top: 0;
     background: $white;
     .nav-item .nav-link {
@@ -23,25 +23,24 @@ responsive style
     }
   }
 
-
-  .app-header.navbar-purple{
-    background: rgba(74,98,255,1);
+  .app-header.navbar-purple {
+    background: rgba(74, 98, 255, 1);
     .nav-item .nav-link {
       color: $white;
     }
-    .navbar-toggler{
+    .navbar-toggler {
       color: $white;
     }
   }
 
-  .dark-theme{
-    .app-header{
+  .dark-theme {
+    .app-header {
       background: $black;
       .nav-item .nav-link {
         color: $white;
       }
     }
-    .app-header.navbar-purple{
+    .app-header.navbar-purple {
       background: $black;
       .nav-item .nav-link {
         color: $white;
@@ -50,29 +49,29 @@ responsive style
   }
 
   .hero-banner {
-    background: $purple-color-deep;
+    // background: $purple-color-deep;
     .hero-title {
       font-size: 36px;
     }
     .hero-title,
     .here-sub-title,
-    .gray-txt{
+    .gray-txt {
       color: $white;
     }
 
     .here-sub-title,
-    .gray-txt{
-      font-weight: 400;
+    .gray-txt {
+      font-weight: 700;
     }
 
-    .gray-txt a{
-      color: $green-gradient-secondary
+    .gray-txt a {
+      color: $green-gradient-secondary;
     }
   }
 
   .section-title h2,
-  .section-title h3{
-    font-size: 30px;
+  .section-title h3 {
+    font-size: 36px;
   }
 
   .btn-gradient {
@@ -96,11 +95,13 @@ responsive style
     margin-bottom: 2rem;
   }
 
-  .h2, h2 {
+  .h2,
+  h2 {
     font-size: 1.5rem;
   }
 
-  .h4, h4 {
+  .h4,
+  h4 {
     font-size: 1.2rem;
   }
 
@@ -118,22 +119,20 @@ responsive style
   .js_steps_carousel .owl-dots {
     width: 60%;
   }
-
-
 }
-
 
 @media (max-width: 991px) {
   .app-header .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
 
   .hero-banner {
     height: 75%;
   }
 
-  .login-bg p, .registration-bg p {
+  .login-bg p,
+  .registration-bg p {
     font-size: 12px;
   }
 
@@ -149,13 +148,13 @@ responsive style
   }
 
   .js_steps_carousel .owl-dots .owl-dot:nth-child(4),
-  .js_steps_carousel .owl-dots .owl-dot:nth-child(5){
+  .js_steps_carousel .owl-dots .owl-dot:nth-child(5) {
     right: 40px;
   }
 
   .creative-banner {
     height: 100% !important;
-    .hero-text{
+    .hero-text {
       transform: translateY(-30%);
     }
     .banner-img {
@@ -167,13 +166,10 @@ responsive style
     .hero-footer {
       display: none;
     }
-
   }
-
 }
 
-
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .hero-banner {
     height: 60%;
   }
@@ -183,7 +179,8 @@ responsive style
     top: -15%;
   }
 
-  .login-bg, .registration-bg {
+  .login-bg,
+  .registration-bg {
     width: 100%;
   }
 
@@ -195,7 +192,7 @@ responsive style
     .count-block {
       margin: 0 10px;
     }
-    .colon{
+    .colon {
       font-size: 30px;
       top: -25px;
     }
@@ -207,19 +204,18 @@ responsive style
   }
 }
 
+@media (max-width: 767px) {
+  .navbar-brand {
+    img {
+      height: 35px;
+    }
+  }
 
-@media (max-width: 767px){
-   .navbar-brand {
-     img{
-       height: 35px;
-     }
-   }
-
-  .navbar-toggler:focus{
+  .navbar-toggler:focus {
     outline: none;
   }
 
-  .navbar-toggler-icon{
+  .navbar-toggler-icon {
     height: auto;
   }
 
@@ -230,8 +226,8 @@ responsive style
     display: block;
   }
 
-  .dark-theme{
-    .navbar-toggler-icon{
+  .dark-theme {
+    .navbar-toggler-icon {
       color: $white;
     }
   }
@@ -241,18 +237,21 @@ responsive style
   }
 
   .hero-banner .here-sub-title,
-  .login-bg .title, .registration-bg .title{
+  .login-bg .title,
+  .registration-bg .title {
     font-size: 1.2rem;
   }
 
-  .section-title h2, .section-title h3,
-  .h3, h3{
+  .section-title h2,
+  .section-title h3,
+  .h3,
+  h3 {
     font-size: 1.5rem;
   }
 
   .js_steps_carousel .owl-dots,
   .js_steps_carousel .owl-stage-outer,
-  .js_steps_carousel .steps-content{
+  .js_steps_carousel .steps-content {
     width: 100%;
   }
 
@@ -263,7 +262,8 @@ responsive style
     height: 60px;
   }
 
-  .js_steps_carousel .owl-dots .owl-dot:nth-child(4), .js_steps_carousel .owl-dots .owl-dot:nth-child(5) {
+  .js_steps_carousel .owl-dots .owl-dot:nth-child(4),
+  .js_steps_carousel .owl-dots .owl-dot:nth-child(5) {
     right: auto;
     left: 0;
   }
@@ -274,7 +274,7 @@ responsive style
     float: none;
   }
 
-  .js_steps_carousel .owl-dots .owl-dot:nth-child(5){
+  .js_steps_carousel .owl-dots .owl-dot:nth-child(5) {
     float: none;
   }
 
@@ -283,7 +283,7 @@ responsive style
     background: none;
   }
 
-  .js_steps_carousel .owl-dots .owl-dot:nth-child(1){
+  .js_steps_carousel .owl-dots .owl-dot:nth-child(1) {
     margin-left: 0;
   }
   .js_steps_carousel .owl-dots .owl-dot:after {
@@ -292,7 +292,7 @@ responsive style
     width: 70%;
   }
 
-  .js_steps_carousel .owl-dots{
+  .js_steps_carousel .owl-dots {
     position: absolute;
   }
 
@@ -300,7 +300,7 @@ responsive style
     margin-top: 100px;
   }
 
-  .accordion .card-header h5{
+  .accordion .card-header h5 {
     font-size: 1rem;
   }
 
@@ -312,23 +312,22 @@ responsive style
     margin-bottom: 2rem;
   }
 
-
   .accept-card {
-    .card-body{
-      padding: .5rem;
+    .card-body {
+      padding: 0.5rem;
     }
   }
 
   .js_advisory_board .owl-stage-outer {
     margin: 0 15px;
-    p{
+    p {
       display: inline;
     }
   }
 
   .js_advisory_board .owl-dot {
     width: 50px;
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
 
   .js_advisory_board .owl-stage-outer {
@@ -341,12 +340,12 @@ responsive style
     }
   }
 
-  .app-header .nav-item .dropdown-menu{
+  .app-header .nav-item .dropdown-menu {
     width: 100%;
     margin-top: 0;
   }
-  .app-header .nav-item .dropdown-menu:before{
-    content: '';
+  .app-header .nav-item .dropdown-menu:before {
+    content: "";
   }
 
   .login-banner-img {
@@ -354,41 +353,50 @@ responsive style
   }
 }
 
-
-@media (max-width: 640px){
+@media (max-width: 640px) {
   .hero-banner .hero-title {
     font-size: 1.3rem;
   }
 
-  .hero-banner .here-sub-title, .login-bg .title, .registration-bg .title, .h4, h4 {
+  .hero-banner .here-sub-title,
+  .login-bg .title,
+  .registration-bg .title,
+  .h4,
+  h4 {
     font-size: 1rem;
   }
 
   .btn {
-    font-size: 11px;
-    padding: .5rem 2rem;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
   }
 
-  body, .sm-txt {
+  body,
+  .sm-txt {
     font-size: 12px;
   }
 
   .partner-brand {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
-
-  .section-title h2, .section-title h3, .h3, h3, .h2, h2 {
-    font-size: 1.1rem;
+  .section-title h2,
+  .section-title h3,
+  .h3,
+  h3,
+  .h2,
+  h2 {
+    font-size: 1.4rem;
   }
 
-  .login-bg, .registration-bg {
+  .login-bg,
+  .registration-bg {
     padding: 1rem 2rem;
   }
 
   .app-footer .payment-cards img {
     margin-right: 1rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .js_steps_carousel .owl-dots .owl-dot {
@@ -403,7 +411,7 @@ responsive style
   }
 
   .accordion .card-header h5 {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .roadmap-timeline-list {
@@ -411,10 +419,10 @@ responsive style
   }
 
   .count-down {
-    .colon{
+    .colon {
       font-size: 30px;
       top: -15px;
-      margin: 0 .1rem;
+      margin: 0 0.1rem;
     }
     .count-block {
       span {
@@ -424,7 +432,7 @@ responsive style
   }
 
   .creative-banner {
-    .here-sub-title{
+    .here-sub-title {
       margin-bottom: 1rem;
     }
   }
@@ -436,21 +444,18 @@ responsive style
   }
 
   .team-row {
-    .owl-item:nth-child(even){
+    .owl-item:nth-child(even) {
       margin-top: 0px;
     }
   }
 
-  .btn-group-sm > .btn, .btn-sm {
-    padding: .3rem .5rem !important;
+  .btn-group-sm > .btn,
+  .btn-sm {
+    padding: 0.3rem 0.5rem !important;
   }
-
 }
 
-
-
-@media (max-width: 359px){
-
+@media (max-width: 359px) {
   .js_steps_carousel .owl-dots .owl-dot {
     font-size: 1rem;
     line-height: 30px;
@@ -461,5 +466,4 @@ responsive style
   .js_steps_carousel .owl-stage-outer {
     margin-top: 50px;
   }
-
 }

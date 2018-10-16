@@ -21,24 +21,27 @@ hero banner
 
   .hero-title {
     color: $primary-color;
-    font-size: 48px;
+    font-size: 55px;
     margin-bottom: 1rem;
   }
 
   .here-sub-title {
     color: $gray-dark;
-    font-size: $base-font-size + 8;
-    font-weight: 300;
+    font-size: $base-font-size + 16;
+    font-weight: 900;
     line-height: normal;
     margin-bottom: 3rem;
   }
-
 }
 
-.creative-banner{
+.creative-banner {
   position: relative;
   height: 100%;
-  background: linear-gradient(220deg, rgba(74,98,255,1) 0%, rgba(135,31,255,1) 100%);
+  background: linear-gradient(
+    220deg,
+    rgba(74, 98, 255, 1) 0%,
+    rgba(135, 31, 255, 1) 100%
+  );
   overflow: hidden;
   .hero-text {
     top: 50%;
@@ -48,9 +51,9 @@ hero banner
 
   .banner-img {
     position: relative;
-    top: -20%
+    top: -20%;
   }
-  .hero-footer{
+  .hero-footer {
     position: absolute;
     width: 100%;
     left: 0;
@@ -62,19 +65,19 @@ hero banner
     z-index: 1;
   }
 
-  @media (min-width: 1600px){
-    .hero-footer{
+  @media (min-width: 1600px) {
+    .hero-footer {
       height: 300px;
     }
   }
 }
 
-.bubble-set{
+.bubble-set {
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
 
-  div{
+  div {
     position: absolute;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.04);
@@ -104,7 +107,24 @@ hero banner
   height: 80%;
 }
 
+.communityLED {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
 
+  p {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  li {
+    padding: 0.5rem;
+  }
+}
+
+.h4spaced {
+  padding: 1rem;
+}
 
 /*-------------------------------
 dark theme
@@ -112,7 +132,7 @@ dark theme
 
 .dark-theme {
   .hero-banner {
-    .here-sub-title{
+    .here-sub-title {
       color: $white;
     }
   }

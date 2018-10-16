@@ -7,35 +7,35 @@ app header
   z-index: 100;
   width: 100%;
   padding-top: 2rem;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 
   .navbar {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     font: {
-      size: $base-font-size - 5;
+      size: $base-font-size - 2;
       family: $secondary-font;
-      weight: 500;
-    };
+      weight: 600;
+    }
     text-transform: uppercase;
     letter-spacing: 1px;
   }
 
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
       padding-right: 1rem;
       padding-left: 1rem;
     }
   }
 
-  .nav-item{
-    .nav-link{
+  .nav-item {
+    .nav-link {
       color: $white;
-      &:hover{
-        color: $secondary-color;
+      &:hover {
+        color: $warning-color;
       }
     }
-    .active{
-      color: $secondary-color;
+    .active {
+      color: #000;
     }
 
     .dropdown-menu {
@@ -45,18 +45,20 @@ app header
       margin-top: 0rem;
       z-index: 200;
       .dropdown-item {
-        padding: .5rem 1.5rem;
+        padding: 0.5rem 1.5rem;
         font-size: 11px;
         color: $white;
-        &:hover, &:focus, &.active{
+        &:hover,
+        &:focus,
+        &.active {
           background: transparent;
-//          color: $white;
+          //          color: $white;
           color: $secondary-color;
         }
       }
-      &:before{
+      &:before {
         top: -22px;
-        content: '\f0d8';
+        content: "\f0d8";
         font-family: fontawesome;
         font-size: 25px;
         position: absolute;
@@ -67,11 +69,10 @@ app header
         height: 22px;
       }
     }
-
   }
 
   .navbar-collapse {
-    margin-top: .8rem;
+    margin-top: 0.8rem;
   }
 }
 
@@ -80,34 +81,34 @@ app header
   position: fixed;
   padding-top: 0;
   top: 0;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .07);
-  transition: all .3s ease;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
   z-index: 110;
-  .nav-item{
-    .nav-link{
+  .nav-item {
+    .nav-link {
       color: $black-light;
     }
-    .active{
+    .active {
       color: $secondary-color;
     }
   }
 }
 
 .navbar-purple.navbar-sticky {
-  background: rgba(74,98,255,1);
+  background: rgba(74, 98, 255, 1);
   position: fixed;
   padding-top: 0;
   top: 0;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .07);
-  transition: all .3s ease;
-  .nav-item{
-    .nav-link{
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+  .nav-item {
+    .nav-link {
       color: $white;
-      &:hover{
+      &:hover {
         color: $secondary-color;
       }
     }
-    .active{
+    .active {
       color: $secondary-color;
     }
   }
@@ -125,12 +126,12 @@ dark theme
   .navbar-sticky {
     background: $black;
     box-shadow: none;
-    transition: all .3s ease;
-    .nav-item{
-      .nav-link{
+    transition: all 0.3s ease;
+    .nav-item {
+      .nav-link {
         color: $white;
       }
-      .active{
+      .active {
         color: $secondary-color;
       }
     }

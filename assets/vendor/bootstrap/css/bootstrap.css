@@ -602,6 +602,7 @@ pre code {
   margin-left: -15px;
 }
 
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -7785,7 +7786,7 @@ button.bg-dark:focus {
   }
   .mb-sm-5,
   .my-sm-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
   }
   .ml-sm-5,
   .mx-sm-5 {
@@ -8023,7 +8024,7 @@ button.bg-dark:focus {
     margin-left: 1.5rem !important;
   }
   .m-md-5 {
-    margin: 3rem !important;
+    margin: 2rem !important;
   }
   .mt-md-5,
   .my-md-5 {
